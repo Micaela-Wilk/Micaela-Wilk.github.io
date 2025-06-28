@@ -23,6 +23,9 @@ body {
     width: 40%;
     text-indent: 10px;
     color: rgb(187, 186, 170);
+
+    overflow: scroll;
+    scrollbar-width: none;
     
 }
 
