@@ -1,5 +1,75 @@
-nav {
-    align: right;
-    background-color: #004526;
+
+body {
+    background-color: #7AE2CF;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.content {
+    display: flex;
+    color: #066f72;
     
+    
+}
+
+
+
+
+ .sidebar {
+    background-color: #06202B;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-indent: 10px;
+    color: rgb(187, 186, 170);
+    
+}
+
+.sidebar p {
+    font-size: 14px;
+}
+
+ .picture{
+    align-self: center;
+    margin: 20px 25px 20px 0px;
+} 
+
+.picture img{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.skills {
+    text-indent: 40px;
+}
+
+.geninfo {
+    margin: 20px 10px 30px 35px;
+}
+
+.lines {
+    border-bottom: 1px solid black;
+
+
+} 
+
+footer {
+    background-color: #76d9c7;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin-left: 0;
+    padding: 0;
+
+    text-align: center;
+
+
 }
